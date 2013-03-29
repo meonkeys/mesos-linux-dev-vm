@@ -8,7 +8,6 @@ The virtual machine runs 64-bit Ubuntu 12.04.
 
 * [VirtualBox](https://www.virtualbox.org) 4.2.x
 * [Vagrant](http://www.vagrantup.com) 1.1.x
-* 64-bit host?
 
 # Quick start
 
@@ -21,6 +20,11 @@ If all that worked, you now have a running VM!
 
 * Run `vagrant ssh` to enter the VM. In the VM `cd /vagrant/mesos`, build/test/etc.
 * Outside the VM, edit code in the `mesos` dir using your favorite coding tool(s).
+
+# Troubleshooting
+
+* **Network operations time out or appear to halt the machine** - are you running
+  on a 32-bit host? That may be the problem. Try a 64-bit host.
 
 # See also
 
