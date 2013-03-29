@@ -13,12 +13,13 @@ The virtual machine runs 64-bit Ubuntu 12.04.
 # Quick start
 
 * Clone this repo.
+  * Use `git clone --recursive ...`.
+  * If you already cloned and forgot to use `--recursive`, just run `git submodule init` then `git submodule update`.
 * Run `vagrant up` in the top-level directory of your clone.
 
-You now have a running VM!
+If all that worked, you now have a running VM!
 
-* Run `vagrant ssh` to enter the VM.
-* In the VM `cd /vagrant/mesos`, build/test/etc.
+* Run `vagrant ssh` to enter the VM. In the VM `cd /vagrant/mesos`, build/test/etc.
 * Outside the VM, edit code in the `mesos` dir using your favorite editor or IDE.
 
 # See also
