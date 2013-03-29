@@ -14,7 +14,7 @@ The virtual machine runs 64-bit Ubuntu 12.04.
 
 * Clone this repo.
   * Use `git clone --recursive ...`.
-  * If you already cloned and forgot to use `--recursive`, just run `git submodule init` then `git submodule update`.
+  * If you already cloned and forgot to use `--recursive`, just run `git submodule update --init`.
 * Run `vagrant up` in the top-level directory of your clone.
 
 If all that worked, you now have a running VM!
