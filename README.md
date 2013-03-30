@@ -22,9 +22,10 @@ If all that worked, you now have a running VM!
 
 # Troubleshooting
 
-* **Network operations time out or appear to halt the machine** - are you running
-  on a 32-bit host? That may be the problem. Try a 64-bit host.
-* **Already cloned but forgot to use `--recursive`** - run `git submodule update --init`.
+* Network operations time out or appear to halt the machine.
+  * Are you running on a 32-bit host? That may be the problem. Try a 64-bit host.
+* Forgot to use `--recursive` with `git clone`.
+  * Run `git submodule update --init`.
 
 # See also
 
