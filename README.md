@@ -32,3 +32,9 @@ If all that worked, you now have a running VM!
 # See also
 
 * [Vagrant docs](http://docs.vagrantup.com/v2/)
+
+# Copyright and License
+
+©2013 Adam Monsen <haircut@gmail.com>.
+
+Available under the Apache License, Version 2.0. See COPYING.
