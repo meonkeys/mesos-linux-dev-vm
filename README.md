@@ -17,7 +17,7 @@ The virtual machine runs 64-bit Ubuntu 12.04.
 If all that worked, you now have a running VM!
 
 * Run `vagrant ssh` to enter the VM. In the VM `cd /vagrant/mesos`, build/test/etc.
-* Outside the VM, edit code in the `mesos` dir using your favorite coding tool(s).
+* Outside the VM, edit code using your favorite tools.
 
 # Troubleshooting
 
