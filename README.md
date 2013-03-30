@@ -12,8 +12,7 @@ The virtual machine runs 64-bit Ubuntu 12.04.
 # Quick start
 
 * Clone this repo.
-  * Use `git clone --recursive <repository>`.
-  * If you already cloned and forgot to use `--recursive`, just run `git submodule update --init`.
+  * Use `git clone --recursive <repository>`. 
 * Run `vagrant up` in the top-level directory of your clone.
 
 If all that worked, you now have a running VM!
@@ -25,6 +24,7 @@ If all that worked, you now have a running VM!
 
 * **Network operations time out or appear to halt the machine** - are you running
   on a 32-bit host? That may be the problem. Try a 64-bit host.
+* **Already cloned but forgot to use `--recursive`** - run `git submodule update --init`.
 
 # See also
 
